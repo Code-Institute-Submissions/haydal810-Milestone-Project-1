@@ -8,15 +8,12 @@ html {
 }
 
 .section-top {
+    background: url('../images/mountain1.jpg') no-repeat;
+    background-size: 100%;
     width: 100%;
     height: 100%;
     overflow: hidden;
     position: relative;
-    background: url("https://i.imgur.com/TfTk7c4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: slide 10s infinite;
-
 }
 
 .content {
@@ -45,18 +42,5 @@ h2 {
     text-decoration: none;
     font-size: 18px;
     border-radius: 18px;
-
-}
-
-@keyframes slide {
-    0% {
-        background-image: url(images.jpg);
-    }
-    33% {
-        background-image: url(images.jpg);
-    }
-    67% {
-        background-image: url(images.jpg);
-    }
 
 }
