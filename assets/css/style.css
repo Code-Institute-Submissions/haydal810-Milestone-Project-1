@@ -1,19 +1,10 @@
-body,
-html {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    width: 100%;
-    height: 100%;
-}
-
-/*------------------------------------------------------------- Background Images, Landing Page */
+/* ----------------------------------------Background Image, Landing Page, Top Section */
 
 .section-top {
     background: url('../images/ballach1.jpg') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 1200px;
     overflow: hidden;
     position: relative;
     animation: slide 25s infinite;
@@ -32,13 +23,64 @@ html {
     }
 }
 
+/* ----------------------------------------Fonts, etc, Landing Page, all Sections */
+
+.section-middle {
+    background-color: white;
+    width: 100%;
+    height:500px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.content-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.section-bottom {
+    background-color: white;
+    width: 100%;
+    height:500px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+
+
+/* ----------------------------------------Background Image, things-to-do Page */
+
+.callout-container {
+    background: url('../images/coose1.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+
 /*------------------------------------------------------------- Content Fonts, etc, Landing Page */
 
 .content {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-40%, -50%);
     text-transform: uppercase;
     text-align: center;
 }
@@ -63,63 +105,91 @@ h2 {
 }
 
 
-/*------------------------------------------------------------- Background Images,etc Intro Page */
+/* ----------------------------------------Nav Bar */
 
-.intro-section-top {
-    background: url('../images/coose1.jpg') no-repeat;
-    background-size: cover;
+.navbar {
     width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-
+    background-color: rgba(72, 126, 176, 0.2);
+    overflow: auto;
 }
 
-.content-intro {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.navbar a:hover {
+    background-color: rgba(72, 126, 176, 0.4);
+}
+
+.active {
+    background-color: none;
+}
+
+/* ----------------------------------------does this work?*/
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: left;
+        display: block;
+    }
+}
+
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
     text-align: center;
+}
+
+/* ----------------------------------------Footer*/
+
+.section-footer {
+    background-color: rgba(72, 126, 176, 0.2);
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    
     
 }
 
-.content-intro h1,
-h2 {
-    color: #fafafa;
-    font-size: 50px;
-    letter-spacing: 16px;
-    padding-bottom: 10px;
 
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
 
-/*------------------------------------------------------------- Nav Bar, all Pages */
-
-.side {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-
+fab:hover {
+    opacity: 0.7;
 }
 
-.side a {
-    background: beige;
-    color: #fafafa;
-    font-size: 15px;
-    display: block;
-    width: 180px;
-    padding: 12px;
-    text-decoration: none;
-    margin: 8px 0;
-    border-radius: 6px;
-    margin-left: -135px;
-    transition: 0.6s all;
-    text-transform: uppercase;
+.fab fa-facebook-f {
+  background: red;
+  color: white;
 }
 
-.side a:hover {
-    margin-left: 0;
-    text-decoration: none;
-    color: #fafafa;
+.fab fa-google {
+  background: #dd4b39;
+  color: white;
 }
+
+fab fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
