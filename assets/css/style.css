@@ -173,10 +173,9 @@ h2 {
 
 .my-footer {
     margin-top: 25px;
-    background-color: rgba(72, 126, 176, 0.3);
+    background-color: none;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
-    padding: 15px;
     color: #fafafa;
     text-decoration: none;
     font-size: 25px;
@@ -186,8 +185,8 @@ h2 {
 /* ----------------------------------------Social Icons Hover effects, courtesy of codemyui.com----*/
 
 .fab {
-    padding: 15px;
-    font-size: 45px;
+    padding: 5px;
+    font-size: 35px;
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
@@ -234,7 +233,7 @@ a {
 
 
 .wrapper a:nth-child(2) {
-  color: rgba(189, 195, 199,1.0);
+  color: #e74c3c;
   cursor: pointer;
   text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
   transition: all ease-in-out 150ms;
@@ -247,13 +246,26 @@ a {
 }
 
 .wrapper a:nth-child(3) {
-  color: rgba(231, 76, 60,1.0);
+  color: #f5f6fa;
   cursor: pointer;
   text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   transition: all ease-in-out 150ms;
 }
 
 .wrapper a:nth-child(3):hover {
+  margin-top: -10px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  transform: translate(0, -5);
+}
+
+.wrapper a:nth-child(4) {
+  color: rgba(231, 76, 60,1.0);
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper a:nth-child(4):hover {
   margin-top: -10px;
   text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
   transform: translate(0, -5);
