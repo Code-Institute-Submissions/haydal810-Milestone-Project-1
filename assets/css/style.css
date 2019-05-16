@@ -67,7 +67,7 @@ h2 {
 
 /* ----------------------------------------Top Section Columns & Rows... */
 
-.my-row {
+.my-row-top {
     height: 250px;
     padding-top: 15px;
 }
@@ -121,7 +121,7 @@ h2 {
 }
 
 .my-colbottom {
-    padding-top: 15px;
+    padding-top: 3px;
     text-align: center;
 }
 
@@ -133,7 +133,6 @@ h2 {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    height: 650px;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -158,6 +157,18 @@ h2 {
 
 /* ----------------------------------------Footer*/
 
+.my-row-bottom {
+    height: 100px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.my-colfooter {
+    padding-bottom: 15px;
+    height: 150px;
+}
+
+
 .my-footer {
     margin-top: 25px;
     background-color: rgba(72, 126, 176, 0.3);
@@ -174,7 +185,7 @@ h2 {
 
 .fab {
     padding: 15px;
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
@@ -202,19 +213,47 @@ body {
     height: 5vh;
 }
 
-i {
+a {
     padding: 0px 10px;
 }
 
-.wrapper i:nth-child(1) {
+.wrapper a:nth-child(1) {
     color: #4867AA;
     cursor: pointer;
     text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
     transition: all ease-in-out 150ms;
 }
 
-.wrapper i:nth-child(1):hover {
+.wrapper a:nth-child(1):hover {
     margin-top: -10px;
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
     transform: translate(0, -8);
 }
+
+
+.wrapper a:nth-child(2) {
+  color: rgba(189, 195, 199,1.0);
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper a:nth-child(2):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.wrapper a:nth-child(3) {
+  color: rgba(231, 76, 60,1.0);
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper a:nth-child(3):hover {
+  margin-top: -10px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  transform: translate(0, -5);
+}
+
