@@ -3,7 +3,7 @@
 .my-navbar {
     padding: 12px;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 20px;
     font-family: 'Shadows Into Light', cursive;
     background-color: rgba(72, 126, 176, 0.3);
 }
@@ -40,7 +40,7 @@
     height: 800px;
     overflow: hidden;
     position: relative;
-    animation: slide 25s infinite;
+    animation: slide 35s infinite;
 
 }
 
@@ -48,11 +48,32 @@
     0% {
         background-image: url('../images/ballach1.jpg');
     }
-    33% {
+    11% {
         background-image: url('../images/rivercaragh.jpg');
     }
-    67% {
+    22% {
+        background-image: url('../images/ballach2.jpg');
+    }
+    33% {
         background-image: url('../images/coose1.jpg');
+    }
+    43% {
+        background-image: url('../images/caragh1.jpg');
+    }
+    55% {
+        background-image: url('../images/ballach3.jpg');
+    }
+    67% {
+        background-image: url('../images/coose2.jpg');
+    }
+    74% {
+        background-image: url('../images/caragh2.jpg');
+    }
+    82% {
+        background-image: url('../images/coose3.jpg');
+    }
+    91% {
+        background-image: url('../images/caragh3.jpg');
     }
 }
 
@@ -60,6 +81,7 @@
     position: relative;
     text-transform: uppercase;
     text-align: center;
+    
 }
 
 .content h1,
@@ -68,7 +90,6 @@ h2 {
     font-size: 30px;
     letter-spacing: 16px;
     padding-bottom: 10px;
-
 }
 
 /* ----------------------------------------Top Section Columns & Rows... */
@@ -101,7 +122,7 @@ h2 {
     text-align: center;
     font-family: 'Marck Script', cursive;
     padding: 12px;
-    color: rgba(0, 148, 50, 1.0);
+    color: #487eb0;
     /*----------------green titles---*/
     text-decoration: none;
     font-size: 38px;
@@ -239,41 +260,40 @@ a {
 
 
 .wrapper a:nth-child(2) {
-  color: #e74c3c;
-  cursor: pointer;
-  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
-  transition: all ease-in-out 150ms;
+    color: #e74c3c;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
 }
 
 .wrapper a:nth-child(2):hover {
-  margin-top: -10px;
-  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
-  transform: translate(0, -8);
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
 }
 
 .wrapper a:nth-child(3) {
-  color: #f5f6fa;
-  cursor: pointer;
-  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
-  transition: all ease-in-out 150ms;
+    color: #f5f6fa;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out 150ms;
 }
 
 .wrapper a:nth-child(3):hover {
-  margin-top: -10px;
-  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
-  transform: translate(0, -5);
+    margin-top: -10px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    transform: translate(0, -5);
 }
 
 .wrapper a:nth-child(4) {
-  color: rgba(231, 76, 60,1.0);
-  cursor: pointer;
-  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
-  transition: all ease-in-out 150ms;
+    color: rgba(231, 76, 60, 1.0);
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out 150ms;
 }
 
 .wrapper a:nth-child(4):hover {
-  margin-top: -10px;
-  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
-  transform: translate(0, -5);
+    margin-top: -10px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    transform: translate(0, -5);
 }
-
