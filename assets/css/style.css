@@ -1,6 +1,6 @@
 /* ----------------------------------------Nav Bar*/
 
-.my-navbar {
+.navbar-deco {
     padding: 12px;
     text-decoration: none;
     font-size: 20px;
@@ -10,11 +10,11 @@
 }
 
 
-.my-navbar a:hover {
+.navbar-deco a:hover {
     background-color: rgba(72, 126, 176, 0.4);
 }
 
-.my-nav-item {
+.nav--item {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -31,7 +31,7 @@
 }
 
 
-.my-containertop {
+.containertop {
     background: url('../images/ballach1.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -95,17 +95,17 @@ h2 {
 
 /* ----------------------------------------Top Section Columns & Rows... */
 
-.my-row-top {
+.row-top {
     height: 250px;
     padding-top: 15px;
 }
 
 
-.my-col1 {
+.col1 {
     height: auto;
 }
 
-.my-col2 {
+.col2 {
     height: 250px;
     margin-top: 35px
 }
@@ -114,7 +114,7 @@ h2 {
 
 /* ----------------------------------------Middle Sections, fonts... */
 
-.my-colmiddle {
+.colmiddle {
     padding: 12px;
     text-align: center;
 }
@@ -143,18 +143,13 @@ h2 {
 
 /*----------------bottom section---*/
 
-.my-bottomrow {
-    height: 350px;
-
-}
-
-.my-colbottom {
+.col-bottom {
     padding-top: 15px;
     text-align: center;
 }
 
 
-.my-containerbottom {
+.container-bottom {
     background: url('../images/bogcotton.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -185,20 +180,20 @@ h2 {
 
 /* ----------------------------------------Footer*/
 
-.my-row-bottom {
+.row-bottom-footer {
     height: 100px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
-.my-colfooter {
+.col-footer {
     padding-bottom: 15px;
     padding-top: 3px;
     text-align: center;
 }
 
 
-.my-footer {
+.custom-footer {
     margin-top: 25px;
     background-color: none;
     text-align: center;
