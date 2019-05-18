@@ -4,8 +4,9 @@
     padding: 12px;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Marck Script', cursive;
     background-color: rgba(72, 126, 176, 0.3);
+    
 }
 
 
@@ -101,7 +102,7 @@ h2 {
 
 
 .my-col1 {
-    height: 100px;
+    height: auto;
 }
 
 .my-col2 {
@@ -202,7 +203,7 @@ h2 {
     margin-top: 25px;
     background-color: none;
     text-align: center;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Marck Script', cursive;
     color: #fafafa;
     text-decoration: none;
     font-size: 25px;
