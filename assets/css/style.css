@@ -1,4 +1,13 @@
-/* ----------------------------------------Nav Bar*/
+/* -----Entire Page--- */
+
+.container,
+.container-fluid,
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------Nav Bar*/
 
 .navbar-deco {
     padding: 12px;
@@ -6,7 +15,7 @@
     font-size: 20px;
     font-family: 'Marck Script', cursive;
     background-color: rgba(72, 126, 176, 0.3);
-    
+
 }
 
 
@@ -19,19 +28,23 @@
     padding-right: 20px;
 }
 
-
-
-/* ----------------------------------------Top Section, Background Image, Landing Page, Fonts & Text  */
-
-.container,
-.container-fluid,
-.row {
-    margin: 0;
-    padding: 0;
-}
-
+/* -----Landing  background Image of index.html--- */
 
 .containertop {
+    background: url('../images/kerrywayhiking.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* -----Landing  background Image of outdoor.html--- */
+
+.containertop-outdoor {
     background: url('../images/ballach1.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,48 +54,59 @@
     height: 800px;
     overflow: hidden;
     position: relative;
-    animation: slide 35s infinite;
-
 }
 
-@keyframes slide {
-    0% {
-        background-image: url('../images/ballach1.jpg');
-    }
-    11% {
-        background-image: url('../images/rivercaragh.jpg');
-    }
-    22% {
-        background-image: url('../images/ballach2.jpg');
-    }
-    33% {
-        background-image: url('../images/coose1.jpg');
-    }
-    43% {
-        background-image: url('../images/caragh1.jpg');
-    }
-    55% {
-        background-image: url('../images/ballach3.jpg');
-    }
-    67% {
-        background-image: url('../images/coose2.jpg');
-    }
-    74% {
-        background-image: url('../images/caragh2.jpg');
-    }
-    82% {
-        background-image: url('../images/coose3.jpg');
-    }
-    91% {
-        background-image: url('../images/caragh3.jpg');
-    }
+/* -----Landing  background Image of food.html--- */
+
+.containertop-food {
+    background: url('../images/guinness.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
 }
+
+/* -----Landing  background Image of accommodation.html--- */
+
+.containertop-accom {
+    background: url('../images/blackstoneshouse.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* -----Landing  background Image of contact.html--- */
+
+.containertop-contact {
+    background: url('../images/coose1.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+/* ------------Welcome Text*/
 
 .content {
     position: relative;
     text-transform: uppercase;
     text-align: center;
-    
+
 }
 
 .content h1,
@@ -107,7 +131,7 @@ h2 {
 
 .col2 {
     height: 250px;
-    margin-top: 35px
+    margin-top: 50px
 }
 
 
@@ -148,6 +172,7 @@ h2 {
     text-align: center;
 }
 
+/*--Footer background Image---*/
 
 .container-bottom {
     background: url('../images/bogcotton.jpg') no-repeat;
@@ -163,6 +188,8 @@ h2 {
     justify-content: center;
 }
 
+/*--Opaque Overlay---*/
+
 .opaque-overlay {
     position: relative;
     top: 0;
@@ -177,8 +204,14 @@ h2 {
     color: #fafafa;
 }
 
+.font-blue {
+    color: #487eb0;;
+}
 
-/* ----------------------------------------Footer*/
+
+
+
+/* ----Footer & Social Media Icons---*/
 
 .row-bottom-footer {
     height: 100px;
@@ -204,7 +237,7 @@ h2 {
     text-transform: none;
 }
 
-/* ----------------------------------------Social Icons Hover effects, courtesy of codemyui.com----*/
+/* --------Social Icons Hover effects, courtesy of codemyui.com----*/
 
 .fab {
     padding: 5px;
