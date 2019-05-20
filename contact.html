@@ -57,35 +57,74 @@
         </div>
     </div>
 
+    <!----Middle Section---->
 
-    <!----bottom section---->
-
-    <div class="container-fluid">
-
+    <div class="container-fluid container-form">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-6 col-bottom">
-                <h1 class="content-title"><strong>Send us a message</strong></h1>
-                <span class="content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facere autem doloribus, molestiae, debitis voluptatibus obcaecati voluptatum, optio in officia, adipisci similique id quod dolorum consectetur nesciunt pariatur. Eum, similique, assumenda? Porro, earum. Eum ratione, velit, aut, quae dolor veritatis dignissimos autem vel explicabo est laboriosam, laudantium incidunt et nobis..</span>
+            <div class="col-12 col-bottom">
+                <p class="content-title"><strong>Send us a message</strong></p>
+                <!----Form---->
             </div>
-            <div class="col-12 col-md-12 col-footer">
-                <footer class="custom-footer">
-                    <div class="container-fluid">
-                        <div class="row justify-content-center row-bottom-footer">
-                            <div class="col-12 col-footer font-blue">
-                                <span> Follow Us </span>
-                            </div>
-                            <div class="col-12 wrapper">
-                                <a href="https://www.facebook.com/Glencar-Co-Kerry-495365410479240/"><i class="fab fa-facebook-square"></i></a>
-                                <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
-                                <a href="https://www.google.ie"><i class="fab fa-google"></i></a>
-                                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                            </div>
+            <div class="col-12 col-md-8 col-bottom">
+                <!----Form---->
+                <form>
+                    <div class="form-row form-custom">
+                        <label for="inputEmail4">Email Address</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address">
+                    </div>
+                    <div class="form-row form-custom">
+                        <label for="inputFullName">Full Name</label>
+                        <input type="text" class="form-control" id="inputFullName" placeholder="Full Name">
+                    </div>
+                    <div class="form-row form-custom">
+                        <label for="inputFirstName">Area of Interest</label>
+                        <select class="custom-select">
+                        <option selected>Select from Dropdown List</option>
+                        <option value="1">General Query</option>
+                        <option value="2">Advertise on this Website</option>
+                        <option value="3">I need a Website</option>
+                        </select>
+                    </div>
+                    <div class="form-row form-custom">
+                        <label for="messagearea">Message</label>
+                        <textarea class="form-control" id="messagearea" rows="6" placeholder="Type your Message here"></textarea>
+                    </div>
+                    <div class="form-row form-custom">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">I am not a Robot</label>
                         </div>
                     </div>
-                </footer>
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                </form>
             </div>
         </div>
+    </div>
 
+    <!----Bottom Section---->
+
+    <div class="container-fluid container-bottom ">
+        <div class="opaque-overlay">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12 col-footer">
+                    <footer class="custom-footer">
+                        <div class="container-fluid">
+                            <div class="row justify-content-center row-bottom-footer">
+                                <div class="col-12 col-footer">
+                                    <span> Follow Us </span>
+                                </div>
+                                <div class="col-12 wrapper">
+                                    <a target="_blank" href="https://www.facebook.com/Glencar-Co-Kerry-495365410479240/"><i class="fab fa-facebook-square"></i></a>
+                                    <a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                                    <a target="_blank" href="https://www.google.ie"><i class="fab fa-google"></i></a>
+                                    <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

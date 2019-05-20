@@ -162,6 +162,21 @@ h2 {
 
 }
 
+/*----------------contact form section---*/
+
+.container-form {
+    height: 710px;
+}
+
+.col-contactform {
+    padding-top: 10px;
+}
+
+.form-custom {
+    padding: 5px;
+}
+
+
 
 
 
@@ -205,7 +220,8 @@ h2 {
 }
 
 .font-blue {
-    color: #487eb0;;
+    color: #487eb0;
+    ;
 }
 
 
