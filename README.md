@@ -16,7 +16,7 @@ As a new visitor to the website, I want to easily navigate the site, regardless 
 As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth my while visiting the area.
 As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
 
-Wireframes: Link to be provided...
+Wireframes: Link to be provided soon...
 
 ## Features
 
@@ -57,6 +57,7 @@ I would lie to add a further page to the website in the future, where visitors c
 
 ### Features Left to Implement
 - Another feature idea
+- TBA...
 
 ## Technologies Used
 
@@ -77,9 +78,6 @@ I would lie to add a further page to the website in the future, where visitors c
 
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
 
 
 ## Testing
@@ -104,6 +102,18 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
+This project was developed using the Cloud9 IDE, committed to git and pushed to GitHub using the built in function within cloud9.
+
+From there it was deployed to GitHub Pages from its GitHub repository.
+
+The website is published here: https://haydal810.github.io/Milestone-Project-1/
+
+
+
+
+
+
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -116,6 +126,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
+-External Images to be credited...
+-Content to be credited where required...
+-The CSS code for the footer Social Media Icons taken from codemyui.com
+
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
@@ -124,4 +139,5 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from https://reeksdistrict.com/
+- TBA, TBA Explain why etc....
