@@ -109,8 +109,7 @@
 
 }
 
-.content h1,
-h2 {
+.content p {
     color: #fafafa;
     font-size: 30px;
     letter-spacing: 16px;
@@ -131,7 +130,7 @@ h2 {
 
 .col2 {
     height: 250px;
-    margin-top: 50px
+    margin-top: 5px
 }
 
 

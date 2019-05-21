@@ -1,11 +1,12 @@
-# Your Project's Name
+# Glencar, County Kerry, IRELAND
 
-One or two paragraphs providing an overview of your project.
+This is a website about the place where I grew up: Glencar, County Kerry, Ireland. I have always thought that this area had huge potential for tourism, and that not many people outside the area even knew about the place. So I decided to design a website, to advise and promote the area. In the future, I will make the website live in the public domain, and give the option for individuals and business's to contribute to the website and promote their part of Glencar.
 
-Essentially, this part is your sales pitch.
- 
 ## UX
- 
+
+This website has been designed for anyone who doesn't know about the area of Glencar. The website gives information about the area to the visitor: What to see & do, where to eat and what accommodation is available in the area. The website gives a brief outline about each item, and refers to a link at the end of each item, directing them to an external site, where the visitor can view further information about that item. --DH
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -15,8 +16,25 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+Home (Landing Page, "Logo in Navigation bar on the far left")
+The User is met with a vivid and colourful landing screen and welcome message. Navigation Bar is located on top, (and on top of all the other pages)
+In the middle of the page, it gives the user the location fo the area, supported with a Google Location Map.
+The bottom of the page is occupied by the footer, which has a background image from Glencar, along with some more welcome text and links to social media.
+
+Outdoor Activities page (Nav Item 1)
+Again, the user is met with a vivid and colourful image from the area, with accompanying title text, advising the user of where they are within the website. Scrolling down, there are three activities. Each one has a description, and accompanying Youtube Video / Map. Footer is at bottom of page, same as Home page.
+
+Food & Drink page (Nav Item 2)
+Again, the user is met with a vivid and colourful image, but this time it's a generic picture of a Pint of Guinness & food, with accompanying title text, advising the user of where they are within the website. Scrolling down, there are two locations named. Each one has a description and link for further information. Footer is at bottom of page, same as Home page.
+
+Accomodation page (Nav Item 3)
+Again, the user is met with a vivid and colourful image, with accompanying title text, advising the user of where they are within the website. Scrolling down, there are two locations named. Each one has a description and link for further information. Footer is at bottom of page, same as Home page.
+
+Contact page (Nav Item 4)
+The user is met with another vivid and colourful image, from the area, with accompanying title text, advising the user of where they are within the website. Scrolling down, there is a form for the user to fill out, if he/she wishes to contact to owner of the site.
+Footer is at bottom of page, same as Home page.
+
+
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
