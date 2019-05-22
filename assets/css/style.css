@@ -1,4 +1,4 @@
-/* ------------Nav Bar*/
+/* --Nav Bar-- */
 
 .navbar-deco {
     padding: 12px;
@@ -10,6 +10,7 @@
 
 .navbar-deco a:hover {
     background-color: rgba(72, 126, 176, 0.4);
+    border-radius: 10px;
 }
 
 .nav--item {
@@ -17,62 +18,102 @@
     padding-right: 20px;
 }
 
-/* -----Landing  background Image of index.html--- */
+/* --Nav Bar Hover Effect - Courtesy of https://github.com/IanLunn-- */
+
+/* --Pop-- */
+
+@-webkit-keyframes hvr-pop {
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes hvr-pop {
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+.hvr-pop {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pop:hover,
+.hvr-pop:focus,
+.hvr-pop:active {
+    -webkit-animation-name: hvr-pop;
+    animation-name: hvr-pop;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+/* --Landing  background Image of index.html-- */
 
 .containertop {
     background: url('../images/kerrywayhiking.jpg') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
 
-/* -----Landing  background Image of outdoor.html--- */
+/* --Landing  background Image of outdoor.html-- */
 
 .containertop-outdoor {
     background: url('../images/ballach1.jpg') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
 
-/* -----Landing  background Image of food.html--- */
+/* --Landing  background Image of food.html-- */
 
 .containertop-food {
     background: url('../images/guinness.jpg') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
 
-/* -----Landing  background Image of accommodation.html--- */
+/* --Landing  background Image of accommodation.html-- */
 
 .containertop-accom {
     background: url('../images/blackstoneshouse.jpg') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
 
-/* -----Landing  background Image of contact.html--- */
+/* --Landing  background Image of contact.html-- */
 
 .containertop-contact {
     background: url('../images/coose1.jpg') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
 
-/* ------------Welcome Text on each page--*/
+/* --Welcome Text on each page-- */
 
 .content {
     position: relative;
@@ -88,7 +129,7 @@
     padding-bottom: 10px;
 }
 
-/* ----------------------------------------Top Section Columns & Rows... */
+/* --Top Section Columns & Rows-- */
 
 .row-top {
     height: 250px;
@@ -121,7 +162,7 @@
 
 
 
-/* ----------------------------------------Middle Sections, fonts... */
+/* --Middle Sections, fonts-- */
 
 .colmiddle {
     padding: 12px;
@@ -147,7 +188,7 @@
 
 }
 
-/*----------------contact form section---*/
+/* --contact form section-- */
 
 .container-form {
     height: 710px;
@@ -162,14 +203,14 @@
 }
 
 
-/*----------------bottom section---*/
+/*-- bottom section --*/
 
 .col-bottom {
     padding-top: 15px;
     text-align: center;
 }
 
-/*--Footer background Image---*/
+/* --Footer background Image-- */
 
 .container-bottom {
     background: url('../images/bogcotton.jpg') no-repeat;
@@ -181,15 +222,15 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 0px;
 }
 
-/*--Opaque Overlay---*/
+/* --Opaque Overlay-- */
 
 .opaque-overlay {
     position: relative;
@@ -206,10 +247,11 @@
 }
 
 .font-blue {
-    color: #487eb0;;
+    color: #487eb0;
+    ;
 }
 
-/* ----Footer & Social Media Icons---*/
+/* --Footer & Social Media Icons-- */
 
 .row-bottom-footer {
     height: 100px;
@@ -226,7 +268,6 @@
 
 .custom-footer {
     margin-top: 25px;
-    background-color: none;
     text-align: center;
     font-family: 'Marck Script', cursive;
     color: #fafafa;
@@ -235,7 +276,7 @@
     text-transform: none;
 }
 
-/* --------Social Icons Hover effects, courtesy of codemyui.com----*/
+/* --Social Icons Hover effects, courtesy of codemyui.com-- */
 
 .fab {
     padding: 5px;
@@ -249,13 +290,13 @@
 
 * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
     text-align: center;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -267,11 +308,11 @@ body {
     margin: 0;
     padding: 0;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     height: 5vh;
 }
 
@@ -292,8 +333,8 @@ a {
     margin-top: -10px;
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
     -webkit-transform: translate(0, -8);
-        -ms-transform: translate(0, -8);
-            transform: translate(0, -8);
+    -ms-transform: translate(0, -8);
+    transform: translate(0, -8);
 }
 
 
@@ -310,8 +351,8 @@ a {
     margin-top: -10px;
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
     -webkit-transform: translate(0, -8);
-        -ms-transform: translate(0, -8);
-            transform: translate(0, -8);
+    -ms-transform: translate(0, -8);
+    transform: translate(0, -8);
 }
 
 .wrapper a:nth-child(3) {
@@ -327,8 +368,8 @@ a {
     margin-top: -10px;
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
     -webkit-transform: translate(0, -5);
-        -ms-transform: translate(0, -5);
-            transform: translate(0, -5);
+    -ms-transform: translate(0, -5);
+    transform: translate(0, -5);
 }
 
 .wrapper a:nth-child(4) {
@@ -344,6 +385,6 @@ a {
     margin-top: -10px;
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
     -webkit-transform: translate(0, -5);
-        -ms-transform: translate(0, -5);
-            transform: translate(0, -5);
+    -ms-transform: translate(0, -5);
+    transform: translate(0, -5);
 }
