@@ -42,7 +42,7 @@
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
 .hvr-pop:hover,
@@ -61,6 +61,7 @@
 /* --Landing  background Image of index.html-- */
 
 .containertop {
+    background-color: #00a8ff;
     background: url('../images/kerrywayhiking.jpg') no-repeat;
     background-size: cover;
     width: 100%;
@@ -72,6 +73,7 @@
 /* --Landing  background Image of outdoor.html-- */
 
 .containertop-outdoor {
+    background-color: #00a8ff;
     background: url('../images/ballach1.jpg') no-repeat;
     background-size: cover;
     width: 100%;
@@ -83,6 +85,7 @@
 /* --Landing  background Image of food.html-- */
 
 .containertop-food {
+    background-color: #00a8ff;
     background: url('../images/guinness.jpg') no-repeat;
     background-size: cover;
     width: 100%;
@@ -94,6 +97,7 @@
 /* --Landing  background Image of accommodation.html-- */
 
 .containertop-accom {
+    background-color: #00a8ff;
     background: url('../images/blackstoneshouse.jpg') no-repeat;
     background-size: cover;
     width: 100%;
@@ -105,6 +109,7 @@
 /* --Landing  background Image of contact.html-- */
 
 .containertop-contact {
+    background-color: #00a8ff;
     background: url('../images/coose1.jpg') no-repeat;
     background-size: cover;
     width: 100%;
@@ -182,7 +187,6 @@
 .content-description {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
 
@@ -321,7 +325,7 @@ a {
 }
 
 .wrapper a:nth-child(1) {
-    color: #4867AA;
+    color: #fafafa;
     cursor: pointer;
     text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
     -webkit-transition: all ease-in-out 150ms;
@@ -339,7 +343,7 @@ a {
 
 
 .wrapper a:nth-child(2) {
-    color: #e74c3c;
+    color: #fafafa;
     cursor: pointer;
     text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
     -webkit-transition: all ease-in-out 150ms;
@@ -356,7 +360,7 @@ a {
 }
 
 .wrapper a:nth-child(3) {
-    color: #f5f6fa;
+    color: #fafafa;
     cursor: pointer;
     text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     -webkit-transition: all ease-in-out 150ms;
@@ -373,7 +377,7 @@ a {
 }
 
 .wrapper a:nth-child(4) {
-    color: rgba(231, 76, 60, 1.0);
+    color: #fafafa;
     cursor: pointer;
     text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     -webkit-transition: all ease-in-out 150ms;
