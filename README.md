@@ -63,22 +63,14 @@ I would lie to add a further page to the website in the future, where visitors c
 
 - This project uses HTML and CSS programming languages.
 
- - Cloud9 - This was used as the IDE for building the website.
- - BootstrapCDN - The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily.
- - Fontawesome - Used to provide icons from FontAwesome throughtout the site.
- - Google Fonts - The project uses Google fonts to style the website fonts.
- - AutoPrefixer - This project used AutoPrefixer to make sure the css code is valid for all browsers.
-
-
-
-
-
-
-
-
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
+Other technologies used:
+ - Cloud9 - This was used as the IDE for building the website. https://c9.io/login
+ - BootstrapCDN - The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily. https://getbootstrap.com/
+ - Fontawesome - Used to provide icons from FontAwesome throughtout the site. https://fontawesome.com/
+ - Google Fonts - The project uses Google fonts to style the website fonts. https://fonts.google.com/
+ - AutoPrefixer - This project used AutoPrefixer to make sure the css code is valid for all browsers. https://autoprefixer.github.io/
+ - jQuery - This project uses jQuery to reference Javascript needed for the responsive navigation bar on every page. http://jquery.com/
+ - Popper.js - This project uses Popper.js to reference Javascript, needed for the responsive navbar. https://popper.js.org/
 
 ## Testing
 
@@ -132,12 +124,36 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+The text for the Home page copied from: https://www.facebook.com/pg/Glencar-Co-Kerry-495365410479240/about/?ref=page_internal
+
+The text from the Outdoor Activities section was taken from: 
+- http://www.cappanalea.ie/
+- https://www.discoverireland.ie/Activities-Adventure/upper-caragh-fishery/15012
+- https://www.activeme.ie/guides/kerry-way-stage-3-glencar-to-glenbeigh-walking-route-ireland/
+
+The text from the Food & Drink section was taken from: 
+- http://www.glencarresorthotel.com/
+- https://climbersinn.com/
+
+The text from the Accommodation section was taken from: 
+- http://blackstoneshouse.com/
+- http://www.glencarresorthotel.com/
+
 
 ### Media
-- The photos used in this site were obtained from ...
+The photos used in this site were obtained from:
+
+https://www.outdoor-magazin.com/touren/die-schoensten-reiseziele/wandern-auf-dem-kerry-way-in-irland.776774.3.htm
+https://www.expedia.com.sg/pictures/ireland/glencar.d6174891/
+http://blackstoneshouse.com/
+https://www.facebook.com/pg/Glencar-Co-Kerry-495365410479240/photos/?ref=page_internal
+https://www.insidehook.com/article/food-and-drink/st-patricks-day-guinness-irish-whiskey-food
+
+
+
 
 ### Acknowledgements
 
 - I received inspiration for this project from https://reeksdistrict.com/
-- TBA, TBA Explain why etc....
+- I'd like to thank my mentor, Antonija Šimić, for her uselful and constructive feedback throughout the Milestone Project
+- I'd like to thank Anna Greaves (Lead Student) and Simen Daehlin for their feedback and guidence on Slack, when I hit a code wall.
