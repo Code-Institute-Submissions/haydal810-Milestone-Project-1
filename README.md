@@ -11,12 +11,14 @@ In the future, I will make the website live in the public domain, and give the o
 
 This website has been designed for anyone who doesn't know about the area of Glencar. The website gives information about the area to the visitor: What to see & do, where to eat and what accommodation is available in the area. The website gives a brief outline about each item, and refers to a link at the end of each item, directing them to an external site, where the visitor can view further information about that item. --DH
 
-Client Stories:
+User Stories:
 As a new visitor to the website, I want to easily navigate the site, regardless of device used, so I can find what I need efficiently.
-As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth my while visiting the area.
+As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth visiting the area.
+As a new visitor to the website, I want to find out where to eat & drink in the area, so I can decide if it's worth visiting the area.
 As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
+As a visitor to the website, I want to contact the person in charge of the website, to discuss how I want my local business to be mentioned on the website.
 
-Wireframes: Link to be provided soon...
+Wireframes: My Wireframes plan can be found in the Wireframes Folder in my github repository: haydal810/Milestone-Project-1
 
 ## Features
 
@@ -49,15 +51,11 @@ Footer is at bottom of page, same as Home page.
 
 - Contact Form - Allows visitors to ask the owner of the website questions, such as further info, etc.
 
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-Possible additional features to be implemented in the future:
-I would lie to add a further page to the website in the future, where visitors can leave "stories" of their experiences in the area. This would provide good feedback for the locals of Glencar, and insight for potential new visitors.
-
 ### Features Left to Implement
-- Another feature idea
-- TBA...
+- Backend knowledge required and later to be implemented for the information collected from the contact form section of the website.
+- Events section, detailing upcoming local events.
+- Implement an option to change the language of the website, as Glencar as many visitors from Germany & France who hill-walk and fish in the local area.
+- I would lie to add a further page to the website in the future, where visitors can leave "stories" of their experiences in the area. This would provide good feedback for the locals of Glencar, and insight for potential new visitors.
 
 ## Technologies Used
 
@@ -74,57 +72,77 @@ Other technologies used:
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Below are the list of Internet Browsers I used to test the display of the website:
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+ - Google Chrome (Version 74.0)
+ - Mozilla Firefox (Version 67.0)
+ - Internet Explorer 11 (Version 11.5)
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Below are the list of websites I used to test my html and css code:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+ - https://validator.w3.org/ This is a HTML online validitor
+ - https://jigsaw.w3.org/css-validator/ This is a CSS online validitor
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Meeting the needs of the user stories (as described in the UX section of this README file.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+As a new visitor to the website, I want to easily navigate the site, regardless of device used, so I can find what I need efficiently.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+ - The website s responsive on all devices, thanks to the Bootstrap 4 Grid incorporated in the HTML & CSS code. 
+
+As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth visiting the area.
+ - On the Nav Bar on the top of the Homepage, there is an nav item "Outdoor Activities" and this directs the user to a page within the website, informing them of such information.
+
+
+As a new visitor to the website, I want to find out where to eat & drink in the area, so I can decide if it's worth visiting the area.
+
+ - On the Nav Bar on the top of the Homepage, there is an nav item "Eat & Drink" and this directs the user to a page within the website, informing them of such information.
+
+
+As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
+
+- On the Nav Bar on the top of the Homepage, there is an nav item "Accommodation" and this directs the user to a page within the website, informing them of such information.
+
+
+As a visitor to the website, I want to contact the person in charge of the website, to discuss how I want my local business to be mentioned on the website.
+
+- On the Nav Bar on the top of the Homepage, there is an nav item "Contact" and this directs the user to a page within the website, where the visitor will have to fill out required fields, including a field where they can insert a message, and click on the "Send Message" Button.
+
+
 
 ## Deployment
 
 This project was developed using the Cloud9 IDE, committed to git and pushed to GitHub using the built in function within cloud9.
-
 From there it was deployed to GitHub Pages from its GitHub repository.
-
 The website is published here: https://haydal810.github.io/Milestone-Project-1/
 
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+- Log into GitHub.
+- From the list of repositories on the screen, select haydal810/Milestone-Project-1
+- From the menu items near the top of the page, select Settings.
+- Scroll down to the GitHub Pages section.
+- Under Source click the drop-down menu labelled None and select Master Branch
+- On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+- Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+- The website is published here: https://haydal810.github.io/Milestone-Project-1/
 
+How to run this project locally.
+To clone this project from GitHub:
 
-
-
-
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+-Follow this link to the Project GitHub repository.
+-Under the repository name, click "Clone or download".
+-In the Clone with HTTPs section, copy the clone URL for the repository.
+-In your local IDE open Git Bash.
+-Change the current working directory to the location where you want the cloned directory to be made.
+-Type git clone, and then paste the URL you copied in Step 3.
+-git clone https://github.com/USERNAME/REPOSITORY
+-Press Enter. Your local clone will be created.
+Further information can be found here: https://help.github.com/en/articles/cloning-a-repository
 
 ## Credits
 
--External Images to be credited...
--Content to be credited where required...
--The CSS code for the footer Social Media Icons taken from codemyui.com
-
-
 ### Content
-The text for the Home page copied from: https://www.facebook.com/pg/Glencar-Co-Kerry-495365410479240/about/?ref=page_internal
+The text for the Home page copied from: 
+- https://www.facebook.com/pg/Glencar-Co-Kerry-495365410479240/about/?ref=page_internal
 
 The text from the Outdoor Activities section was taken from: 
 - http://www.cappanalea.ie/
@@ -140,6 +158,12 @@ The text from the Accommodation section was taken from:
 - http://www.glencarresorthotel.com/
 
 
+The two video clips on the "Outdoor Activities" page were sourced from Youtube:
+
+ - https://youtu.be/Et98URg4xas
+ - https://youtu.be/DMagyvlU_7U?list=PLM6KOvVfwyn2P4LUZbTwTpotW47L3Fwbi
+
+
 ### Media
 The photos used in this site were obtained from:
 
@@ -150,10 +174,17 @@ https://www.facebook.com/pg/Glencar-Co-Kerry-495365410479240/photos/?ref=page_in
 https://www.insidehook.com/article/food-and-drink/st-patricks-day-guinness-irish-whiskey-food
 
 
+### External CSS Code
 
+External CSS code was taken from the following sources:
+- The CSS code for the footer Social Media Icons taken from codemyui.com
+- The CSS code for the hover effect on the Nav Bar was taken from https://github.com/IanLunn
 
 ### Acknowledgements
 
 - I received inspiration for this project from https://reeksdistrict.com/
 - I'd like to thank my mentor, Antonija Šimić, for her uselful and constructive feedback throughout the Milestone Project
 - I'd like to thank Anna Greaves (Lead Student) and Simen Daehlin for their feedback and guidence on Slack, when I hit a code wall.
+
+
+### The content of this Website is for educational purposes only. Thank you.
