@@ -18,7 +18,9 @@ As a new visitor to the website, I want to find out where to eat & drink in the 
 As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
 As a visitor to the website, I want to contact the person in charge of the website, to discuss how I want my local business to be mentioned on the website.
 
-Wireframes: My Wireframes plan can be found in the Wireframes Folder in my github repository: haydal810/Milestone-Project-1
+Wireframes: My Wireframes plan can be found in the Wireframes Folder in my github repository:
+[My Wireframe](https://github.com/haydal810/Milestone-Project-1/blob/master/Wireframes/My%20Wireframe%20v1.0%20(Glencar%20Website).JPG)
+
 
 ## Features
 
