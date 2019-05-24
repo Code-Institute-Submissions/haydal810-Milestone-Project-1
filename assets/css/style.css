@@ -18,7 +18,7 @@
     padding-right: 20px;
 }
 
-/* --Nav Bar Hover Effect - Courtesy of https://github.com/IanLunn-- */
+/* --Nav Bar Hover Effect-- */
 
 /* --Pop-- */
 
@@ -58,7 +58,7 @@
     animation-iteration-count: 1;
 }
 
-/* --Landing  background Image of index.html-- */
+/* --Landing background Image of index.html-- */
 
 .containertop {
     background-color: #00a8ff;
@@ -70,7 +70,7 @@
     position: relative;
 }
 
-/* --Landing  background Image of outdoor.html-- */
+/* --Landing background Image of outdoor.html-- */
 
 .containertop-outdoor {
     background-color: #00a8ff;
@@ -82,7 +82,7 @@
     position: relative;
 }
 
-/* --Landing  background Image of food.html-- */
+/* --Landing background Image of food.html-- */
 
 .containertop-food {
     background-color: #00a8ff;
@@ -94,7 +94,7 @@
     position: relative;
 }
 
-/* --Landing  background Image of accommodation.html-- */
+/* --Landing background Image of accommodation.html-- */
 
 .containertop-accom {
     background-color: #00a8ff;
@@ -106,7 +106,7 @@
     position: relative;
 }
 
-/* --Landing  background Image of contact.html-- */
+/* --Landing background Image of contact.html-- */
 
 .containertop-contact {
     background-color: #00a8ff;
@@ -162,10 +162,7 @@
     position: relative;
     text-align: center;
 
-
 }
-
-
 
 /* --Middle Sections, fonts-- */
 
@@ -280,7 +277,7 @@
     text-transform: none;
 }
 
-/* --Social Icons Hover effects, courtesy of codemyui.com-- */
+/* --Social Icons Hover effects-- */
 
 .fab {
     padding: 5px;
