@@ -9,82 +9,84 @@ In the future, I will make the website live in the public domain, and give the o
 
 ## UX
 
-This website has been designed for anyone who doesn't know about the area of Glencar. The website gives information about the area to the visitor: What to see & do, where to eat and what accommodation is available in the area. The website gives a brief outline about each item, and refers to a link at the end of each item, directing them to an external site, where the visitor can view further information about that item. --DH
+This website has been designed for anyone who doesn't know about the area of Glencar. The website gives information about the area to the visitor: What to see & do, where to eat and what accommodation is available in the area. The website gives a brief outline about each item, and refers to a link at the end of each item, directing them to an external site, where the visitor can get further information about that item. 
 
-###User Stories:
+### User Stories:
 * As a new visitor to the website, I want to easily navigate the site, regardless of device used, so I can find what I need efficiently.
 * As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth visiting the area.
 * As a new visitor to the website, I want to find out where to eat & drink in the area, so I can decide if it's worth visiting the area.
 * As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
 * As a visitor to the website, I want to contact the person in charge of the website, to discuss how I want my local business to be mentioned on the website.
 
-###Wireframes: 
+### Wireframes: 
 * My Wireframes plan can be found in the Wireframes Folder in my github repository:
 [My Wireframe](https://github.com/haydal810/Milestone-Project-1/blob/master/Wireframes/My%20Wireframe%20v1.0%20(Glencar%20Website).JPG)
 
 
 ## Features
 
-Home (Landing Page, "Logo in Navigation bar on the far left")
+### Home (Landing Page, "Logo in Navigation bar on the far left")
 The User is met with a vivid and colourful landing screen and welcome message. Navigation Bar is located on top, (and on top of all the other pages)
 In the middle of the page, it gives the user the location fo the area, supported with a Google Location Map.
 The bottom of the page is occupied by the footer, which has a background image from Glencar, along with some more welcome text and links to social media.
 
-Outdoor Activities page (Nav Item 1)
+### Outdoor Activities page (Nav Item 1)
 Again, the user is met with a vivid and colourful image from the area, with accompanying title text, advising the user of where they are within the website. Scrolling down, there are three activities. Each one has a description, and accompanying Youtube Video / Map. Footer is at bottom of page, same as Home page.
 
-Food & Drink page (Nav Item 2)
+### Food & Drink page (Nav Item 2)
 Again, the user is met with a vivid and colourful image, but this time it's a generic picture of a Pint of Guinness & food, with accompanying title text, advising the user of where they are within the website. Scrolling down, there are two locations named. Each one has a description and link for further information. Footer is at bottom of page, same as Home page.
 
-Accomodation page (Nav Item 3)
+### Accomodation page (Nav Item 3)
 Again, the user is met with a vivid and colourful image, with accompanying title text, advising the user of where they are within the website. Scrolling down, there are two locations named. Each one has a description and link for further information. Footer is at bottom of page, same as Home page.
 
-Contact page (Nav Item 4)
+### Contact page (Nav Item 4)
 The user is met with another vivid and colourful image, from the area, with accompanying title text, advising the user of where they are within the website. Scrolling down, there is a form for the user to fill out, if he/she wishes to contact the owner of the site for more information.
 Footer is at bottom of page, same as Home page.
 
 
 ### Existing Features
-- Header Navigation Bar - This is one the top of every page, and allows all users to easily navigate all the website's pages and find what they are looking for. 
-- Footer Social Media Links - This is on the bottom of every page, and allows all users to explore external content in social media, relevant to the subject of the website.
+* Header Navigation Bar - This is one the top of every page, and allows all users to easily navigate all the website's pages and find what they are looking for. 
+* Footer Social Media Links - This is on the bottom of every page, and allows all users to explore external content in social media, relevant to the subject of the website.
 
-- Call to Action Buttons - These are in every page of the website, except for the home page, and they are found at the end of an item description. They allow all users to explore external content, via an external webpage, relevant to the subject of the content item.
+* Call to Action Buttons - These are in every page of the website, except for the home page, and they are found at the end of an item description. They allow all users to explore external content, via an external webpage, relevant to the subject of the content item.
 
-- Youtube Videos (2x) - These are present on the "activities" page of the website, but only appear for medium and above devices. They give further insight to the item they are along side.
+* Youtube Videos (2x) - These are present on the "activities" page of the website, but only appear for medium and above devices. They give further insight to the item they are along side.
 
-- Contact Form - Allows visitors to ask the owner of the website questions, such as further info, etc.
+* Contact Form - Allows visitors to ask the owner of the website questions, such as further info, etc.
 
 ### Features Left to Implement
-- Backend knowledge required and later to be implemented for the information collected from the contact form section of the website.
-- Events section, detailing upcoming local events.
-- Implement an option to change the language of the website, as Glencar as many visitors from Germany & France who hill-walk and fish in the local area.
-- I would lie to add a further page to the website in the future, where visitors can leave "stories" of their experiences in the area. This would provide good feedback for the locals of Glencar, and insight for potential new visitors.
+* Backend knowledge required and later to be implemented for the information collected from the contact form section of the website.
+* Events section, detailing upcoming local events.
+* Implement an option to change the language of the website, as Glencar as many visitors from Germany & France who hill-walk and fish in the local area.
+* I would lie to add a further page to the website in the future, where visitors can leave "stories" of their experiences in the area. This would provide good feedback for the locals of Glencar, and insight for potential new visitors.
+* I would also like to show a window somewhere in the website that would show a feed from the Glencar Facebook page, which gets updated weekly. This would give the website content that would update automatically.
 
 ## Technologies Used
 
-- This project uses HTML and CSS programming languages.
+* This project uses HTML and CSS programming languages.
 
-Other technologies used:
- - Cloud9 - This was used as the IDE for building the website. https://c9.io/login
- - BootstrapCDN - The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily. https://getbootstrap.com/
- - Fontawesome - Used to provide icons from FontAwesome throughtout the site. https://fontawesome.com/
- - Google Fonts - The project uses Google fonts to style the website fonts. https://fonts.google.com/
- - AutoPrefixer - This project used AutoPrefixer to make sure the css code is valid for all browsers. https://autoprefixer.github.io/
- - jQuery - This project uses jQuery to reference Javascript needed for the responsive navigation bar on every page. http://jquery.com/
- - Popper.js - This project uses Popper.js to reference Javascript, needed for the responsive navbar. https://popper.js.org/
+###Other technologies used:
+* Cloud9 - This was used as the IDE for building the website. https://c9.io/login
+* BootstrapCDN - The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily. https://getbootstrap.com/
+* Fontawesome - Used to provide icons from FontAwesome throughtout the site. https://fontawesome.com/
+* Google Fonts - The project uses Google fonts to style the website fonts. https://fonts.google.com/
+* AutoPrefixer - This project used AutoPrefixer to make sure the css code is valid for all browsers. https://autoprefixer.github.io/
+* jQuery - This project uses jQuery to reference Javascript needed for the responsive navigation bar on every page. http://jquery.com/
+* Popper.js - This project uses Popper.js to reference Javascript, needed for the responsive navbar. https://popper.js.org/
 
 ## Testing
 
-Below are the list of Internet Browsers I used to test the display of the website:
+### Below are the list of Internet Browsers I used to test the display of the website:
 
- - Google Chrome (Version 74.0)
- - Mozilla Firefox (Version 67.0)
- - Internet Explorer 11 (Version 11.5)
+1. Google Chrome (Version 74.0)
+2. Mozilla Firefox (Version 67.0)
+3. Internet Explorer 11 (Version 11.5)
 
-Below are the list of websites I used to test my html and css code:
+### Below are the list of websites I used to test my html and css code:
 
- - https://validator.w3.org/ This is a HTML online validitor
- - https://jigsaw.w3.org/css-validator/ This is a CSS online validitor
+1. [W3C HTML Validator](https://validator.w3.org/) This is a HTML online validitor.
+2. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) This is a CSS online validitor.
+3. [CSS Lint](http://csslint.net/) CSS Lint is an open source CSS code quality tool I used.
 
 Meeting the needs of the user stories (as described in the UX section of this README file.
 
