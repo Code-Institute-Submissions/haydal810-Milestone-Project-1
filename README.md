@@ -187,8 +187,9 @@ External CSS code was taken from the following sources:
 ### Acknowledgements
 
 - I received inspiration for this project from https://reeksdistrict.com/
-- I'd like to thank my mentor, Antonija Šimić, [Github](https://github.com/tonkec) for her useful and constructive feedback throughout the Milestone Project
-- I'd like to thank Anna Greaves (Lead Student - Code Institute) and Simen Daehlin (Code Institute Mentor on Slack) for their feedback and guidence on Slack, when I hit a code wall.
+- I'd like to thank my mentor, [Antonija Šimić](https://github.com/tonkec), for her useful and constructive feedback throughout the Milestone Project
+- I'd like to thank [Anna Greaves](https://github.com/AJGreaves) (Lead Student - Code Institute) and [Simen Daehlin](https://github.com/Eventyret) (Code Institute Mentor on Slack) for their feedback and guidence on Slack, when I hit a code wall.
 
 
-### The content of this Website is for educational purposes only. Thank you.
+### The content of this website is for educational purposes only. 
+### Thank you.
