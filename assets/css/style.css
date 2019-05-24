@@ -321,6 +321,7 @@ a {
     padding: 0px 10px;
 }
 
+/* --Facebook Icon-- */
 .wrapper a:nth-child(1) {
     color: #fafafa;
     cursor: pointer;
@@ -331,6 +332,7 @@ a {
 }
 
 .wrapper a:nth-child(1):hover {
+    color: #2980b9;
     margin-top: -10px;
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
     -webkit-transform: translate(0, -8);
@@ -338,7 +340,7 @@ a {
     transform: translate(0, -8);
 }
 
-
+/* --Youtube Icon-- */
 .wrapper a:nth-child(2) {
     color: #fafafa;
     cursor: pointer;
@@ -349,6 +351,7 @@ a {
 }
 
 .wrapper a:nth-child(2):hover {
+    color: #e74c3c;
     margin-top: -10px;
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
     -webkit-transform: translate(0, -8);
@@ -356,6 +359,7 @@ a {
     transform: translate(0, -8);
 }
 
+/* --Google Icon-- */
 .wrapper a:nth-child(3) {
     color: #fafafa;
     cursor: pointer;
@@ -366,13 +370,14 @@ a {
 }
 
 .wrapper a:nth-child(3):hover {
+    color: #3498db;
     margin-top: -10px;
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
     -webkit-transform: translate(0, -5);
     -ms-transform: translate(0, -5);
     transform: translate(0, -5);
 }
-
+/* --Instagram Icon-- */
 .wrapper a:nth-child(4) {
     color: #fafafa;
     cursor: pointer;
@@ -383,6 +388,7 @@ a {
 }
 
 .wrapper a:nth-child(4):hover {
+    color: #c0392b;
     margin-top: -10px;
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
     -webkit-transform: translate(0, -5);
