@@ -89,29 +89,26 @@ Footer is at bottom of page, same as Home page.
 2. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) This is a CSS online validitor.
 3. [CSS Lint](http://csslint.net/) CSS Lint is an open source CSS code quality tool I used.
 
-Meeting the needs of the user stories (as described in the UX section of this README file.
+### Meeting the needs of the user stories (as described in the UX section of this README file)
 
-As a new visitor to the website, I want to easily navigate the site, regardless of device used, so I can find what I need efficiently.
+### As a new visitor to the website, I want to easily navigate the site, regardless of device used, so I can find what I need efficiently.
+The website is responsive on all devices, thanks to the Bootstrap 4 Grid incorporated in the HTML & CSS code. 
 
- - The website s responsive on all devices, thanks to the Bootstrap 4 Grid incorporated in the HTML & CSS code. 
-
-As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth visiting the area.
- - On the Nav Bar on the top of the Homepage, there is an nav item "Outdoor Activities" and this directs the user to a page within the website, informing them of such information.
-
-
-As a new visitor to the website, I want to find out where to eat & drink in the area, so I can decide if it's worth visiting the area.
-
- - On the Nav Bar on the top of the Homepage, there is an nav item "Eat & Drink" and this directs the user to a page within the website, informing them of such information.
+### As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth visiting the area.
+On the Nav Bar on the top of the Homepage, there is an nav item "Outdoor Activities" and this directs the user to a page within the website, informing them of such information.
 
 
-As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
+### As a new visitor to the website, I want to find out where to eat & drink in the area, so I can decide if it's worth visiting the area.
 
-- On the Nav Bar on the top of the Homepage, there is an nav item "Accommodation" and this directs the user to a page within the website, informing them of such information.
+On the Nav Bar on the top of the Homepage, there is an nav item "Eat & Drink" and this directs the user to a page within the website, informing them of such information.
 
 
-As a visitor to the website, I want to contact the person in charge of the website, to discuss how I want my local business to be mentioned on the website.
+### As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
+On the Nav Bar on the top of the Homepage, there is an nav item "Accommodation" and this directs the user to a page within the website, informing them of such information.
 
-- On the Nav Bar on the top of the Homepage, there is an nav item "Contact" and this directs the user to a page within the website, where the visitor will have to fill out required fields, including a field where they can insert a message, and click on the "Send Message" Button.
+
+### As a visitor to the website, I want to contact the person in charge of the website, to discuss how I want my local business to be mentioned on the website.
+On the Nav Bar on the top of the Homepage, there is an nav item "Contact" and this directs the user to a page within the website, where the visitor will have to fill out required fields, including a field where they can insert a message, and click on the "Send Message" Button.
 
 
 
@@ -121,39 +118,40 @@ This project was developed using the Cloud9 IDE, committed to git and pushed to 
 From there it was deployed to GitHub Pages from its GitHub repository.
 The website is published here: https://haydal810.github.io/Milestone-Project-1/
 
-To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
-- Log into GitHub.
-- From the list of repositories on the screen, select haydal810/Milestone-Project-1
-- From the menu items near the top of the page, select Settings.
-- Scroll down to the GitHub Pages section.
-- Under Source click the drop-down menu labelled None and select Master Branch
-- On selecting Master Branch the page is automatically refreshed, the website is now deployed.
-- Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
-- The website is published here: https://haydal810.github.io/Milestone-Project-1/
+### To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+1. Log into GitHub.
+2. From the list of repositories on the screen, select haydal810/Milestone-Project-1
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Master Branch
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+8. The website is published here: https://haydal810.github.io/Milestone-Project-1/
 
-How to run this project locally.
+### How to run this project locally.
 To clone this project from GitHub:
 
--Follow this link to the Project GitHub repository.
--Under the repository name, click "Clone or download".
--In the Clone with HTTPs section, copy the clone URL for the repository.
--In your local IDE open Git Bash.
--Change the current working directory to the location where you want the cloned directory to be made.
--Type git clone, and then paste the URL you copied in Step 3.
--git clone https://github.com/USERNAME/REPOSITORY
--Press Enter. Your local clone will be created.
-Further information can be found here: https://help.github.com/en/articles/cloning-a-repository
+1. Follow this link to the Project GitHub repository.
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository.
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+7. git clone https://github.com/USERNAME/REPOSITORY
+8. Press Enter. Your local clone will be created.
+
+Further information can be found [here](https://help.github.com/en/articles/cloning-a-repository)
 
 ## Credits
 
 ### Content
 The text for the Home page copied from: 
-- https://www.facebook.com/pg/Glencar-Co-Kerry-495365410479240/about/?ref=page_internal
+* [https://www.facebook.com/pg/Glencar-Co-Kerry-495365410479240/about/?ref=page_internal](https://www.facebook.com/pg/Glencar-Co-Kerry-495365410479240/about/?ref=page_internal)
 
 The text from the Outdoor Activities section was taken from: 
-- http://www.cappanalea.ie/
-- https://www.discoverireland.ie/Activities-Adventure/upper-caragh-fishery/15012
-- https://www.activeme.ie/guides/kerry-way-stage-3-glencar-to-glenbeigh-walking-route-ireland/
+- [http://www.cappanalea.ie/](http://www.cappanalea.ie/)
+- [https://www.discoverireland.ie/Activities-Adventure/upper-caragh-fishery/15012](https://www.discoverireland.ie/Activities-Adventure/upper-caragh-fishery/15012)
+- [https://www.activeme.ie/guides/kerry-way-stage-3-glencar-to-glenbeigh-walking-route-ireland/](https://www.activeme.ie/guides/kerry-way-stage-3-glencar-to-glenbeigh-walking-route-ireland/)
 
 The text from the Food & Drink section was taken from: 
 - http://www.glencarresorthotel.com/
