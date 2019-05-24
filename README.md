@@ -25,21 +25,21 @@ This website has been designed for anyone who doesn't know about the area of Gle
 
 ## Features
 
-### Home (Landing Page, "Logo in Navigation bar on the far left")
+### Home (Landing Page, "Logo in Navigation bar on the top left side")
 The User is met with a vivid and colourful landing screen and welcome message. Navigation Bar is located on top, (and on top of all the other pages)
 In the middle of the page, it gives the user the location fo the area, supported with a Google Location Map.
 The bottom of the page is occupied by the footer, which has a background image from Glencar, along with some more welcome text and links to social media.
 
-### Outdoor Activities page (Nav Item 1)
+### Outdoor Activities Page (Nav Item 1)
 Again, the user is met with a vivid and colourful image from the area, with accompanying title text, advising the user of where they are within the website. Scrolling down, there are three activities. Each one has a description, and accompanying Youtube Video / Map. Footer is at bottom of page, same as Home page.
 
-### Food & Drink page (Nav Item 2)
+### Food & Drink Page (Nav Item 2)
 Again, the user is met with a vivid and colourful image, but this time it's a generic picture of a Pint of Guinness & food, with accompanying title text, advising the user of where they are within the website. Scrolling down, there are two locations named. Each one has a description and link for further information. Footer is at bottom of page, same as Home page.
 
-### Accomodation page (Nav Item 3)
+### Accomodation Page (Nav Item 3)
 Again, the user is met with a vivid and colourful image, with accompanying title text, advising the user of where they are within the website. Scrolling down, there are two locations named. Each one has a description and link for further information. Footer is at bottom of page, same as Home page.
 
-### Contact page (Nav Item 4)
+### Contact Page (Nav Item 4)
 The user is met with another vivid and colourful image, from the area, with accompanying title text, advising the user of where they are within the website. Scrolling down, there is a form for the user to fill out, if he/she wishes to contact the owner of the site for more information.
 Footer is at bottom of page, same as Home page.
 
@@ -65,7 +65,7 @@ Footer is at bottom of page, same as Home page.
 
 * This project uses HTML and CSS programming languages.
 
-###Other technologies used:
+### Other technologies used:
 * Cloud9 - This was used as the IDE for building the website. https://c9.io/login
 * BootstrapCDN - The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily. https://getbootstrap.com/
 * Fontawesome - Used to provide icons from FontAwesome throughtout the site. https://fontawesome.com/
@@ -79,6 +79,7 @@ Footer is at bottom of page, same as Home page.
 ### Below are the list of Internet Browsers I used to test the display of the website:
 
 1. Google Chrome (Version 74.0)
+    * Chrome Lighthouse was used to audit the website.
 2. Mozilla Firefox (Version 67.0)
 3. Internet Explorer 11 (Version 11.5)
 
