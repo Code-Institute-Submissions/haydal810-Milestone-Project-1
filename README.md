@@ -89,25 +89,25 @@ Footer is at bottom of page, same as Home page.
 2. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) This is a CSS online validitor.
 3. [CSS Lint](http://csslint.net/) CSS Lint is an open source CSS code quality tool I used.
 
-### Meeting the needs of the user stories (as described in the UX section of this README file)
+#### Meeting the needs of the user stories (as described in the UX section of this README file)
 
-### As a new visitor to the website, I want to easily navigate the site, regardless of device used, so I can find what I need efficiently.
+#### As a new visitor to the website, I want to easily navigate the site, regardless of device used, so I can find what I need efficiently.
 The website is responsive on all devices, thanks to the Bootstrap 4 Grid incorporated in the HTML & CSS code. 
 
-### As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth visiting the area.
+#### As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth visiting the area.
 On the Nav Bar on the top of the Homepage, there is an nav item "Outdoor Activities" and this directs the user to a page within the website, informing them of such information.
 
 
-### As a new visitor to the website, I want to find out where to eat & drink in the area, so I can decide if it's worth visiting the area.
+#### As a new visitor to the website, I want to find out where to eat & drink in the area, so I can decide if it's worth visiting the area.
 
 On the Nav Bar on the top of the Homepage, there is an nav item "Eat & Drink" and this directs the user to a page within the website, informing them of such information.
 
 
-### As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
+#### As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
 On the Nav Bar on the top of the Homepage, there is an nav item "Accommodation" and this directs the user to a page within the website, informing them of such information.
 
 
-### As a visitor to the website, I want to contact the person in charge of the website, to discuss how I want my local business to be mentioned on the website.
+#### As a visitor to the website, I want to contact the person in charge of the website, to discuss how I want my local business to be mentioned on the website.
 On the Nav Bar on the top of the Homepage, there is an nav item "Contact" and this directs the user to a page within the website, where the visitor will have to fill out required fields, including a field where they can insert a message, and click on the "Send Message" Button.
 
 
@@ -149,23 +149,23 @@ The text for the Home page copied from:
 * [https://www.facebook.com/pg/Glencar-Co-Kerry-495365410479240/about/?ref=page_internal](https://www.facebook.com/pg/Glencar-Co-Kerry-495365410479240/about/?ref=page_internal)
 
 The text from the Outdoor Activities section was taken from: 
-- [http://www.cappanalea.ie/](http://www.cappanalea.ie/)
-- [https://www.discoverireland.ie/Activities-Adventure/upper-caragh-fishery/15012](https://www.discoverireland.ie/Activities-Adventure/upper-caragh-fishery/15012)
-- [https://www.activeme.ie/guides/kerry-way-stage-3-glencar-to-glenbeigh-walking-route-ireland/](https://www.activeme.ie/guides/kerry-way-stage-3-glencar-to-glenbeigh-walking-route-ireland/)
+* [http://www.cappanalea.ie/](http://www.cappanalea.ie/)
+* [https://www.discoverireland.ie/Activities-Adventure/upper-caragh-fishery/15012](https://www.discoverireland.ie/Activities-Adventure/upper-caragh-fishery/15012)
+* [https://www.activeme.ie/guides/kerry-way-stage-3-glencar-to-glenbeigh-walking-route-ireland/](https://www.activeme.ie/guides/kerry-way-stage-3-glencar-to-glenbeigh-walking-route-ireland/)
 
 The text from the Food & Drink section was taken from: 
-- http://www.glencarresorthotel.com/
-- https://climbersinn.com/
+* [http://www.glencarresorthotel.com/](http://www.glencarresorthotel.com/)
+* [https://climbersinn.com/](https://climbersinn.com/)
 
 The text from the Accommodation section was taken from: 
-- http://blackstoneshouse.com/
-- http://www.glencarresorthotel.com/
+* [http://blackstoneshouse.com/](http://blackstoneshouse.com/)
+* [http://www.glencarresorthotel.com/](http://www.glencarresorthotel.com/)
 
 
 The two video clips on the "Outdoor Activities" page were sourced from Youtube:
 
- - https://youtu.be/Et98URg4xas
- - https://youtu.be/DMagyvlU_7U?list=PLM6KOvVfwyn2P4LUZbTwTpotW47L3Fwbi
+* [https://youtu.be/Et98URg4xas](https://youtu.be/Et98URg4xas)
+* [https://youtu.be/DMagyvlU_7U?list=PLM6KOvVfwyn2P4LUZbTwTpotW47L3Fwbi](https://youtu.be/DMagyvlU_7U?list=PLM6KOvVfwyn2P4LUZbTwTpotW47L3Fwbi)
 
 
 ### Media
@@ -181,14 +181,14 @@ https://www.insidehook.com/article/food-and-drink/st-patricks-day-guinness-irish
 ### External CSS Code
 
 External CSS code was taken from the following sources:
-- The CSS code for the footer Social Media Icons taken from codemyui.com
+- The CSS code for the footer Social Media Icons taken from www.codemyui.com
 - The CSS code for the hover effect on the Nav Bar was taken from https://github.com/IanLunn
 
 ### Acknowledgements
 
 - I received inspiration for this project from https://reeksdistrict.com/
-- I'd like to thank my mentor, Antonija Šimić, for her uselful and constructive feedback throughout the Milestone Project
-- I'd like to thank Anna Greaves (Lead Student) and Simen Daehlin for their feedback and guidence on Slack, when I hit a code wall.
+- I'd like to thank my mentor, Antonija Šimić, [Github](https://github.com/tonkec) for her useful and constructive feedback throughout the Milestone Project
+- I'd like to thank Anna Greaves (Lead Student - Code Institute) and Simen Daehlin (Code Institute Mentor on Slack) for their feedback and guidence on Slack, when I hit a code wall.
 
 
 ### The content of this Website is for educational purposes only. Thank you.
