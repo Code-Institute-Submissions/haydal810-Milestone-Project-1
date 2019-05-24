@@ -11,14 +11,15 @@ In the future, I will make the website live in the public domain, and give the o
 
 This website has been designed for anyone who doesn't know about the area of Glencar. The website gives information about the area to the visitor: What to see & do, where to eat and what accommodation is available in the area. The website gives a brief outline about each item, and refers to a link at the end of each item, directing them to an external site, where the visitor can view further information about that item. --DH
 
-User Stories:
-As a new visitor to the website, I want to easily navigate the site, regardless of device used, so I can find what I need efficiently.
-As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth visiting the area.
-As a new visitor to the website, I want to find out where to eat & drink in the area, so I can decide if it's worth visiting the area.
-As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
-As a visitor to the website, I want to contact the person in charge of the website, to discuss how I want my local business to be mentioned on the website.
+###User Stories:
+* As a new visitor to the website, I want to easily navigate the site, regardless of device used, so I can find what I need efficiently.
+* As a new visitor to the website, I want to find out about things to do in the area, so I can decide if it's worth visiting the area.
+* As a new visitor to the website, I want to find out where to eat & drink in the area, so I can decide if it's worth visiting the area.
+* As a new visitor to the website, I want to know if it's possible what accomodation is available locally, in case I decide to stay in the area for longer than a day.
+* As a visitor to the website, I want to contact the person in charge of the website, to discuss how I want my local business to be mentioned on the website.
 
-Wireframes: My Wireframes plan can be found in the Wireframes Folder in my github repository:
+###Wireframes: 
+* My Wireframes plan can be found in the Wireframes Folder in my github repository:
 [My Wireframe](https://github.com/haydal810/Milestone-Project-1/blob/master/Wireframes/My%20Wireframe%20v1.0%20(Glencar%20Website).JPG)
 
 
