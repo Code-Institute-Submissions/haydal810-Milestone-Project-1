@@ -150,7 +150,6 @@
     margin-top: 5px
 }
 
-
 .kerrywaymap {
     display: block;
     margin: auto;
@@ -203,7 +202,6 @@
     padding: 5px;
 }
 
-
 /*-- bottom section --*/
 
 .col-bottom {
@@ -242,7 +240,6 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
 .font-white {
     color: #fafafa;
 }
@@ -265,7 +262,6 @@
     padding-top: 3px;
     text-align: center;
 }
-
 
 .custom-footer {
     margin-top: 25px;
@@ -320,6 +316,7 @@ body {
 a {
     padding: 0px 10px;
 }
+/* --Social Media Icons-- */
 
 /* --Facebook Icon-- */
 .wrapper a:nth-child(1) {
@@ -335,9 +332,9 @@ a {
     color: #2980b9;
     margin-top: -10px;
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
-    -webkit-transform: translate(0px, -8px);
-    -ms-transform: translate(0px, -8px);
-    transform: translate(0px, -8px);
+    -webkit-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
 }
 
 /* --Youtube Icon-- */
@@ -354,9 +351,9 @@ a {
     color: #e74c3c;
     margin-top: -10px;
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
-    -webkit-transform: translate(0, -8);
-    -ms-transform: translate(0px, -8px);
-    transform: translate(0px, -8px);
+    -webkit-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
 }
 
 /* --Google Icon-- */
@@ -373,10 +370,11 @@ a {
     color: #3498db;
     margin-top: -10px;
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
-    -webkit-transform: translate(0, -5);
+    -webkit-transform: translate(0px, -5px);
     -ms-transform: translate(0px, -5px);
     transform: translate(0px, -5px);
 }
+
 /* --Instagram Icon-- */
 .wrapper a:nth-child(4) {
     color: #fafafa;
@@ -391,7 +389,7 @@ a {
     color: #c0392b;
     margin-top: -10px;
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
-    -webkit-transform: translate(0, -5);
+    -webkit-transform: translate(0px, -5px);
     -ms-transform: translate(0px, -5px);
     transform: translate(0px, -5px);
 }
